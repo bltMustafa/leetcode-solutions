@@ -115,9 +115,7 @@ Space Complexity: O(n)
 def two_sum_hashmap(nums: List[int], target: int) -> List[int]:
     num_map = {} 
     for i, num in enumerate(nums):
-        print(f'num: {num}')
         complement = target - num
-        print(f'complement: {complement}')
         if complement in num_map:
             return [num_map[complement], i]
         num_map[num] = i
