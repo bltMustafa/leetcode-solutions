@@ -121,8 +121,8 @@ def two_sum_hashmap(nums: List[int], target: int) -> List[int]:
         num_map[num] = i
 
 
-print(f'hashMap Solution: {two_sum_hashmap([2, 7, 11, 15], 9)}')
-print(f'hashMap Solution: {two_sum_hashmap([3, 2, 4], 6)}')
+print(f'hashMap Solution: {two_sum_hashmap([2, 7, 11, 15], 26)}')
+print(f'hashMap Solution: {two_sum_hashmap([3, 2, 4], 7)}')
 print(f'hashMap Solution: {two_sum_hashmap([3, 3], 6)}')
 
 
